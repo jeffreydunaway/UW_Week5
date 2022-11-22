@@ -24,5 +24,5 @@ console.log(list)
 // Remove (delete) the last paragraph
 // (starts with "Available for purchase now…")
 
-let p= document.getElementsByTagName('p')[0]
-p.remove()
+let q= document.getElementsByTagName('q')[0]
+q.remove()
