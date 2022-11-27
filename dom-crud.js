@@ -17,12 +17,9 @@ console.log(imgAttribute)
 
 // Update the third <li> item ("Turbocharged"), 
 // set the class name to "highlight"
-let list = document.querySelector('ul :nth-child(3)')
-list.setAttribute('class', 'highlight')
-console.log(list)
+let order = document.querySelector('ul :nth-child(3)')
+order.setAttribute('class', 'highlight')
 
-// Remove (delete) the last paragraph
-// (starts with "Available for purchase now…")
-
+console.log(order)
 let q= document.getElementsByTagName('q')[0]
 q.remove()
