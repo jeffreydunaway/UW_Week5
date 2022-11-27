@@ -10,13 +10,13 @@ for(let i = 0;i<array.length;i++){
 
 // If a delete link is clicked, delete the li element / remove from the DOM
 
-let remove = document.getElementsByClassName('delete')
-console.log(remove)
+let erase = document.getElementsByClassName('erase')
+console.log(erase)
 
 for(let i = 0;i<array.length;i++){
-  for(let j =0; j<remove.length;j++){
-    remove[i].addEventListener('click', ()=>{
-      array[i].remove()
+  for(let j =0; j<erasae.length;j++){
+    erase[i].addEventListener('click', ()=>{
+      array[i].erase()
     })
   }
 }
