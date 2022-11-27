@@ -16,7 +16,7 @@ console.log(classes)
 for(let i =0; i<classes.length; i++){
     classes[i].setAttribute('style', 'color:orange')
 }
-// for reference: JQuery
+// see jQuery file
 
 const bubbie2 = document.querySelector('#weather :nth-child(2)');
 bubbie2.setAttribute('name', 'Star_Trek_DS9_is_the_best')
