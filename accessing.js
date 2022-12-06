@@ -15,5 +15,5 @@ for(let i =0; i<classes.length; i++){
 // Change the class of the second <li> from to "sun" to "cloudy"
 // see jQuery file
 
-const bubbie2 = document.querySelector('#weather :nth-child(2)');
-bubbie2.setAttribute('name', 'Star_Trek_DS9_is_the_best')
+const child2 = document.querySelector('#weather :nth-child(2)');
+child2.setAttribute('name', 'Star_Trek_DS9_is_the_best')
